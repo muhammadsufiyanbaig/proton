@@ -1,0 +1,1138 @@
+@font-face {
+  font-family:'GOTHAM-LIGHT';
+  src: local('GOTHAM-LIGHT'), url(../../assets/fonts/gothomlight.TTF) format('truetype');
+}
+@font-face {
+  font-family:'GothamMedium';
+  src: local('GothamMedium'), url(../../assets/fonts/GothamMedium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family:'GOTHAM-BOOKITALIC';
+  src: local('GOTHAM-BOOKITALIC'), url(../../assets/fonts/GOTHAM-BOOKITALIC.OTF) format('truetype');
+}
+@font-face {
+  font-family:'GOTHAM-MEDIUMITALIC';
+  src: local('GOTHAM-MEDIUMITALIC'), url(../../assets/fonts/GOTHAM-MEDIUMITALIC.TTF) format('truetype');
+}
+@font-face {
+  font-family:'Montserrat-Regular';
+  src: local('Montserrat-Regular'), url(../../assets/fonts/Montserrat-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family:'Montserrat-SemiBold';
+  src: local('Montserrat-SemiBold'), url(../../assets/fonts/Montserrat-SemiBold.otf) format('truetype');
+}
+
+.modalHover{
+  cursor: grab; 
+}
+.modelClick{
+  cursor:grabbing;
+}
+
+body{
+  padding-bottom: 0px !important;
+
+}
+
+.sagaChooseColorHoverEffect{
+ opacity: 0.8;
+}
+.sagaChooseColorHoverEffect:hover{
+
+  opacity: 1 !important;
+}
+.takeApeekChangingHoverEffect{
+  opacity: 0.8;
+}
+.takeApeekChangingHoverEffect:hover{
+  opacity: 1 !important;
+}
+
+.MuiList-padding{
+  padding-bottom: 0px !important;
+}
+
+.fontstyle{
+  font-family: GOTHAM-LIGHT;
+}
+.fontstyle2{
+  font-family:GothamMedium;
+}
+.fontstyle3{
+  font-family:GOTHAM-BOOKITALIC;
+}
+.fontstyle4{
+  font-family:GOTHAM-MEDIUMITALIC;
+}
+
+
+.MontserratRegular{
+font-family: Montserrat-Regular;
+}
+.Montserrat-SemiBold{
+  font-family: Montserrat-SemiBold;
+}
+.darkmenusTop{
+  cursor: pointer;
+  font-size: 20px !important;
+  margin-top: 20px;
+  font-family:GothamMedium;
+
+}
+
+.whitemenusTop{
+  cursor: pointer;
+  font-size: 20px !important;
+  margin-top: 20px;
+  font-family:GothamMedium;
+
+}
+
+
+
+
+.darkmenus{
+  cursor: pointer;
+  padding-left: 5px;
+  font-size: 10px !important;
+  color: rgba(0,0,0,0);
+  margin-top: 30px;
+  transition: color 0.5s;
+}
+.darkmenus:hover{
+  color:gray !important
+}
+.whitemenus{
+  cursor: pointer;
+  padding-left: 5px;
+  font-size: 10px !important;
+  color: rgba(0,0,0,0);
+  margin-top: 30px;
+  transition: color 0.5s;
+}
+.whitemenus:hover{
+  color:#ffffff70 !important
+}
+
+
+.GridMarginTopBottomPerformance{
+  padding-top: 15%;
+  padding-bottom:5%;
+}
+.performanceGridText{
+  padding-right: 100px;
+  padding-top: 0.5vw;
+
+}
+.GridMarginTopBottomExterior{
+  padding-top: 15%;
+  padding-bottom: 10%;
+}
+
+
+.safetyheading{
+  text-align: center;
+  word-spacing: 2vw;
+  letter-spacing: 1.6vw;
+  margin-top: 0% !important;
+  padding-top: 10%;
+  padding-bottom: 4% !important;
+}
+
+
+
+.GridMarginTopBottomSafety{
+  margin-top: 1%;
+  margin-bottom: 0%;
+}
+.GridMarginTopBottomSafety2{
+  padding-top: 9%;
+  padding-bottom:-149px
+}
+
+.GridMarginTopBottomReverseCamera{
+  padding-top: 17%;
+  padding-bottom: 5%;
+
+}
+
+
+.ExteriorGridText{
+  padding-left: 120px;
+}
+
+  .interiorClass1{
+    padding-top: 9vw;
+    padding-bottom: 36vw;
+    text-align: center;
+    
+    }
+    .interiorClass2{
+      color:white; 
+      display: flex;
+      justify-content: center !important;
+    }
+    .interiorClass3{
+      display:flex;
+      justify-content: center;
+      margin-left: 0%;
+    }
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 599px) {
+  #bookingButtonMobile{
+    display: block !important;
+    position: fixed;
+    top: 320px;
+    right: 0% !important;
+    padding:0 !important;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+  }
+  #pdfButtonMobile{
+    display: block !important;
+    position: fixed;
+    top: 370px;
+    right: 0% !important;
+    padding:0 !important;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+  }
+ 
+  .exterHeadDesktop{
+    display: none !important;
+  }
+  .exterHeadMobile{
+    display: flex !important;
+    /* justify-content: center !important; */
+  }
+  #Mobile{
+    margin-bottom:-20% !important;
+    padding-top: 32% !important;
+  }
+  #pMobile{
+    padding-top: 25% !important;
+    margin-bottom:-20% !important;
+ } #p2Mobile{
+  padding-top: 30% !important;
+  margin-bottom:-20% !important;
+}
+ #EMobile{
+  padding-top: 20% !important;
+  margin-bottom:-30% !important;
+}
+#IMobile{
+  padding-top: 23% !important;
+}
+#SsliderMobile{
+  padding-top: 20% !important;
+  margin-bottom:-40% !important;
+}
+#SMobile{
+  padding-top: 43% !important;
+  margin-bottom:-10% !important;
+
+}
+#S2Mobile{
+  padding-top: 10% !important;
+}
+#reverseCamera{
+  margin-bottom:-20% !important;
+  padding-top: 35% !important;
+
+}
+#InteriorMobile{
+  padding-top: 33% !important;
+  margin-bottom:-40% !important;
+}
+.experianceUrbane{
+  font-size: 14px !important;
+}
+#ModalMobile{
+  padding-top: 45% !important;
+}
+  .sagaChooseColorHoverEffect{
+height:35px !important;
+width:35px !important;
+  }
+  .dn{
+    display: none;
+  }
+  .safety2MainheadMobile{
+    display:flex !important;
+    justify-content: center !important;
+  }
+  .video{
+    display:none
+  
+  }
+  .mobileVideo{
+    display: block !important;
+    padding-bottom: 0% !important;
+       margin-top: 10% !important; 
+    
+  }
+  .sliderForOtherDevicesSaga{
+    display: none;
+}
+.eBroucher-saga {
+  display: none !important;
+
+}
+
+.bookNow-saga {
+  display: none !important;
+
+}
+.bookNow-saga:hover{
+  background-color:#d32424 ;
+  cursor: pointer;
+}
+.navbarResponsive{
+  height: 5.9vh;
+  overflow-x: scroll ;
+  overflow: hidden;
+  background-color: rgb(216, 216, 216) !important;
+ padding-top: 6%;
+
+  }
+/* .navItemMain{
+padding-left: 12% !important;
+} */
+#mobileBorder{
+  border-bottom: 2.5px solid black !important;
+  font-size: 11px !important;
+}
+
+  .rightFixMenu{
+    display: none !important;
+  }
+
+  .customize{
+padding-left: 12% !important;
+    padding-right: 6% !important;
+  }
+
+  .stickyNavbar{
+  display: none !important;
+  }
+  .mobileStickyMenu{
+    display:block !important
+  }
+
+
+  .GridMarginTopBottomPerformance{
+    display: none !important;
+  }
+  .allDivsMainHeadings{
+    /* display:flex;
+    justify-content: center; */
+  }
+  .performanceMobile{
+    display: block !important;
+    margin-top: 15%;
+    justify-content: center !important;
+  }
+
+
+
+  .GridMarginTopBottomExterior{
+    margin-top: 5%;
+  }
+.sth{
+  margin-left: 8px !important;
+  font-family:'GothamMedium';
+}
+.TopAllImages{
+  display: flex !important;
+  justify-content: center !important;
+}
+ .ExteriorImage{
+   width:95% !important;
+   display: flex !important;
+   justify-content: center !important;
+ }
+
+ .ExteriorGridText{
+   padding: 0% !important;
+   margin-top:0% !important;
+   padding-left: 20px !important;
+   margin-top: 35px !important;
+ }
+ .exteriorGridTextInnerDiv{
+padding: 0% !important;
+margin:0% !important;
+width:90% !important;
+
+ }
+ .exteriorHeading{
+   font-size: 20px !important;
+   letter-spacing: 0px !important;
+   font-weight: 600px !important;
+ }
+ .exteriorText1{
+   width:100% !important;
+  font-size: 13px !important;
+  letter-spacing: 0px !important;
+  margin-top: 25px !important;
+ }
+
+.experianceMoreIconDiv{
+  display: none !important;
+}
+  .mobileExperianceMoreButton{
+    display: flex !important;
+   padding-left: 0px !important;
+   margin-top: 35px !important;
+  }
+
+
+
+
+
+.exterior2Desktop{
+  display: none !important;
+}
+.exterior2MainDivMobile{
+  display: block !important;
+  margin-top: 5%;
+}
+
+.safetyMainDivMobile{
+  display: block !important;
+  margin-top: -5%;
+}
+
+.safety2MainDivMobile{
+  margin-top: 15% !important;
+  display: block !important;
+}
+
+
+.GridMarginTopBottomInterior{
+  margin-top: 15%;
+}
+.intRes0{
+  width:100% !important;
+  margin-left: 0 !important;
+  }
+.interiorClass1{
+  height:80% !important ;
+}
+.interiorClass3Mobile{
+ width:85% !important;
+ margin-left: 8% !important;
+}
+.interiorInnerClassMobile{
+  width:31.6% !important;
+ }
+.interiorText1{
+  font-size: 10px !important;
+}
+
+.InteriorFlexhead{
+  font-size:10px !important;
+}
+.InteriorFlextext{
+  display:none !important;
+}
+
+
+.safetyM{
+  display:none !important
+}
+.GridMarginTopBottomSafety{
+  display: none !important;
+}
+.safetyMobile{
+  display: flex !important;
+  justify-content: center !important;
+margin-top: -10% !important;
+}
+.GridMarginTopBottomSafety2{
+ display: none !important;
+}
+
+.GridMarginTopBottomReverseCamera{
+padding-top:0% !important;
+}
+
+.GridMarginTopBottomReverseCamera{
+ display: none !important;
+}
+
+.reverseMobile{
+  margin-top: 5% !important;
+  display:block !important;
+}
+
+.safetyTwoText{
+  font-size: 10px !important;
+  width:75% !important
+}
+.reverseImage{
+  margin: 0% !important;
+  width:85% !important;
+ align-items: center !important;
+ margin-left: 8% !important;
+}
+.modelFunctionsMAinDiv{
+  width:100% !important;
+  margin-top: 30px !important;
+  display: flex !important;
+}
+.chooseVarientMobile{
+  width:50% !important;
+  margin-left:10% !important;
+  border-right: hidden !important;
+}
+.chooseVarient{
+  padding: 0px !important;
+  margin: 0px !important;
+  display: flex;
+  justify-content: center;
+}
+ .modalFunctionsHead{
+  font-size: 15px !important;
+}
+.makechoiceMobileHead{
+  margin-left: 0px !important;
+  font-size: 18px !important;
+  letter-spacing: 6px !important;
+  word-spacing: 6px !important;
+
+}
+.modelHeadDesktop{
+  display: none;
+}
+.modelHeadMobile{
+  display: block !important;
+  width:100% !important;
+  margin-left: 0% !important;
+  padding-left: 0% !important;
+}
+.rotateVehicle{
+  display: none !important;
+}
+
+.sagaHeading{
+  height:10px !important;
+  width:15% !important;
+}
+
+.sagaTextTop{
+  font-size: 10px !important;
+}
+.modalFunctionstext{
+  font-size: 12px !important;
+  letter-spacing: 0px !important;
+
+}
+
+.selectList{
+  width:98% !important;
+  padding-left: 0% !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.selectList1{
+ font-size: 10px !important;
+}
+
+.chooseColour{
+  padding-left: 4px !important;
+}
+.sagaChooseColorHoverEffect{
+  border-radius: 2px !important;
+}
+.chooseVarient{
+  padding-left: 0px !important;
+}
+.drl{
+  font-size: 15px !important;
+}
+.daytime{
+  font-size: 12px !important;
+
+}
+.drlDiv{
+  width:50% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+.drlButton{
+  width:70px !important;
+  height:30px !important;
+}
+.drlButtonInner{
+  width:30px !important;
+  height:23px !important;
+  margin-left:3px !important;
+  margin-top:3px !important;
+  border-radius: 5px !important;
+}
+
+.on{
+padding-left: 7px !important;
+padding-top:5px !important;
+}
+.drlButtonInner2{
+  width:30px !important;
+  height:23px !important;
+  margin-right:2px !important;
+  margin-left:1px !important;
+  margin-top:3px !important;
+  border-radius: 3.5px !important;
+}
+.modalMainIndex{
+  padding-bottom: 0% !important;
+}
+.modalresponsivenes2{
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:768px){
+  #bookingButtonMobile{
+    display: block !important;
+    position: fixed;
+    top: 320px;
+    right: 0% !important;
+    padding:0 !important;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+  }
+  #pdfButtonMobile{
+    display: block !important;
+    position: fixed;
+    top: 370px;
+    right: 0% !important;
+    padding:0 !important;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+  }
+  .mobileStickyMenu{
+    display:block !important;
+    margin-top: 7.6% !important;
+    margin-left: -5% !important;
+  }
+  #Mobile{
+    margin-bottom:-20% !important;
+    padding-top: 16% !important;
+  }
+  #pMobile{
+    padding-top: 20% !important;
+    margin-bottom:-10% !important;
+ } #p2Mobile{
+  padding-top: 10% !important;
+  margin-bottom:-20% !important;
+}
+ #EMobile{
+  padding-top: 10% !important;
+  margin-bottom:-10% !important;
+}
+#IMobile{
+  padding-top: 20% !important;
+}
+#SsliderMobile{
+  padding-top: 20% !important;
+  margin-bottom:-40% !important;
+}
+#SMobile{
+  padding-top: 40% !important;
+  margin-bottom:-10% !important;
+
+}
+#S2Mobile{
+  padding-top: 10% !important;
+}
+#reverseCamera{
+  margin-bottom:-5% !important;
+  padding-top: 45% !important;
+
+}
+#InteriorMobile{
+  padding-top: 10% !important;
+  margin-bottom:-25% !important;
+
+}
+#ModalMobile{
+  padding-top: 30% !important;
+}
+  .video{
+    display:none
+  
+  }
+  .mobileVideo{
+    display: block !important;
+      margin-top: 15% !important;
+    padding-bottom: 0% !important;
+    margin-bottom:-18% !important
+  }
+  .eBroucher-saga {
+    display: none !important;
+  
+  }
+  
+ 
+  .customize{
+    padding-left: 6% !important;
+        padding-right: 6% !important;
+      }
+  .navbarResponsive{
+    height: 5.9vh;
+    overflow-x: scroll ;
+    background-color: rgb(216, 216, 216) !important;
+   padding-top: 3%;
+    }
+    
+  /* .navItemMain{
+  padding-left: 12% !important;
+  } */
+  #mobileBorder{
+    border-bottom: 2.5px solid black !important;
+    font-size: 11px !important;
+  }
+
+
+  .safetyM{
+    margin-top: -20% !important;
+  }
+  .GridMarginTopBottomReverseCamera{
+    margin-top: -15% !important;
+  }
+  .modalMainIndex{
+    margin-top: 0% !important;
+    padding-bottom: 0% !important;
+  }
+  .Mobile{
+    display: none !important;
+
+  }
+  .stickyNavbar{
+    display:none !important;
+    }
+  .sliderForOtherDevicesSaga{
+    display: none;
+}
+
+
+
+.text2SagaPerf{
+  font-size: 9px !important;
+  line-height: 10px !important;
+} 
+.rightFixMenu{
+  display: none !important;
+}
+.InteriorFlexhead{
+  font-size:11px !important;
+}
+.InteriorFlextext{
+  font-size:9px !important;
+  line-height: 11px !important;
+}
+
+.rotateVehicle{
+  height:50px !important;
+  width:50px !important;
+  position: absolute !important;
+  right:5% !important;
+}
+
+.sagaHeading{
+  height:10px !important;
+  width:15% !important;
+}
+
+.sagaTextTop{
+  font-size: 10px !important;
+}
+.modalFunctionstext{
+  font-size: 8px !important;
+  letter-spacing: 0px !important;
+
+}
+
+.selectList{
+  width:98% !important;
+  padding-left: 0% !important;
+}
+.selectList1{
+ font-size: 10px !important;
+}
+
+.chooseColour{
+  padding-left:30px !important;
+}
+
+.sagaChooseColorHoverEffect{
+  border-radius: 2px !important;
+}
+
+.chooseVarient{
+  padding-left: 30px !important;
+}
+
+.drl{
+  font-size: 12px !important;
+}
+
+.daytime{
+  font-size: 8px !important;
+}
+
+.drlDiv{
+  margin-top: -1% !important;
+}
+
+.drlButton{
+  width:45px !important;
+  height:22px !important;
+}
+
+.drlButtonInner{
+  width:45px !important;
+  height:15px !important;
+  margin-left:3px !important;
+  margin-top:3px !important;
+  border-radius: 5px !important;
+}
+
+.on{
+padding-right: 2px !important;
+padding-top:0.5px !important;
+}
+
+.drlButtonInner2{
+  width:50px !important;
+  height:14px !important;
+  margin-right:2px !important;
+  margin-left:1px !important;
+  margin-top:3px !important;
+  border-radius: 3.5px !important;
+}
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width:991px) {
+  .sliderForOtherDevicesSaga{
+    display: none;
+}
+.designClass1{
+  padding-top: 150px !important;
+  padding-bottom: 300px !important;
+  align-items: center !important;
+}
+.designDiv2{
+  text-align: center;
+  width: 100%;
+} 
+.InteriorFlexhead{
+  font-size:13px !important;
+}
+.InteriorFlextext{
+  font-size:11px !important;
+  line-height: 11px !important;
+}
+
+}
+@media only screen and (min-width: 992px) and (max-width:1366px){
+ 
+  .sliderForMobileTabletsSaga{
+    display: none;
+  }
+ 
+  .navbarResponsive1-saga {
+    padding-left: 20% !important;
+  }
+
+ .alloyRim{
+position: relative;
+top: -57px !important;
+right: 170px !important;
+  }
+
+  .eBroucher-saga {
+    padding-left: 8% !important;
+  }
+  .bookNow-saga {
+    font-size: 10px;
+    border-radius: 30px;
+    height:3vh;
+    width:7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.5%;
+    /* margin-left: 4.5%; */
+    color:#ffffff;
+    background-color:#bf2b2b ;
+  }
+  .bookNow-saga:hover{
+    background-color:#d32424 ;
+    cursor: pointer;
+  }
+
+
+.designClass1{
+  padding-bottom: 85px;
+  padding-top: 100px;
+  margin-top: 0%;
+}
+
+.designDiv2{
+  margin-left: 6vw;
+  padding-top: 3vw;
+  width: 30%;
+}
+
+
+
+  .GridMarginTopBottomExterior{
+    padding-top: 12%;
+    padding-bottom: 10%;
+  }
+
+  .interiorClass1{
+    padding-top: 9vw;
+    padding-bottom: 29vw;
+    text-align: center;    
+    }
+    .interiorClass2{
+      color:white; 
+      display: flex;
+      justify-content: center !important;
+    }
+    .interiorClass3{
+      display:flex;
+      justify-content: center;
+      margin-left: 0%;
+    }
+
+    .slickySlider1{
+      padding-top: 8% !important;
+    }
+    .withoutTraction{
+      padding-top: 3vw !important;
+          }
+    .withTraction{
+      padding-top: 5px !important;
+     }
+
+     .GridMarginTopBottomSafety2{
+      padding-top: 6%;
+    }
+  
+
+.takeAPeekButtonsFunct{
+  margin-top: -23% !important;
+}
+
+.modalresponsivenes2{
+  padding-top: 0% !important;
+  margin-top: -3vw;
+}
+}
+
+
+
+
+@media only screen and (min-width: 1367px) and (max-width:1679px) {
+  .sliderForMobileTabletsSaga{
+    display: none;
+  }
+  .alloyRim{
+    position: relative;
+    top: -57px !important;
+    right: 145px !important;
+      }
+  .navbarResponsive1-saga {
+    padding-left: 22.3% !important;
+  }
+  .eBroucher-saga {
+    padding-left: 5% !important;
+  }
+  
+  .bookNow-saga {
+  
+    font-size: 10px;
+    border-radius: 30px;
+    height:3vh;
+    width:7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.5%;
+    /* margin-left: 4.5%; */
+    color:#ffffff;
+    background-color:#bf2b2b ;
+
+  }
+  .bookNow-saga:hover{
+    background-color:#d32424 ;
+    cursor: pointer;
+  }
+
+  .modalMainIndex{
+    margin-top: 7% !important;
+  }
+  .GridMarginTopBottomExterior{
+    padding-top: 12%;
+    padding-bottom: 10%;
+  }
+
+  .interiorClass1{
+    padding-top: 9vw;
+    padding-bottom: 32vw;
+    text-align: center;    
+    }
+    .interiorClass2{
+      color:white; 
+      display: flex;
+      justify-content: center !important;
+    }
+    .interiorClass3{
+      display:flex;
+      justify-content: center;
+      margin-left: 0%;
+    }
+   
+
+  .modalresponsivenes0{
+    padding-bottom: 2.5% !important;
+  }
+
+  .modalresponsivenes2{
+    padding-top: 0% !important;
+    margin-top: 1vw;
+  }
+
+  #modalresponsivenes3{
+    padding-bottom: 1.7vw !important;
+ }
+
+
+
+
+
+.designClass1{
+   padding-bottom: 370px;
+   padding-top: 150px;
+   margin-top: 0%;
+ }
+
+
+.designDiv2{
+   margin-left: 6vw;
+   padding-top: 3vw;
+   width: 30%;
+}
+
+
+
+.sliderbutton{
+  text-align: center;
+ }
+
+.rightFixMenu{
+   flex-direction: column;
+   margin-top: 10%;
+   color:black;
+ }
+
+
+.GridMarginTopBottomInterior{
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+
+}
+
+
+
+/* large screen */
+
+@media only screen and (min-width:1680px){
+  .sliderForMobileTabletsSaga{
+    display: none;
+  }
+  .navbarResponsive1-saga {
+    padding-left: 25% !important;
+  }
+  .eBroucher-saga {
+    padding-left: 8% !important;
+  }
+  
+  .bookNow-saga {
+     font-size: 10px;
+    border-radius: 30px;
+    height:3vh;
+    width:7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.5%;
+    /* margin-left: 4.5%; */
+    color:#ffffff;
+    background-color:#bf2b2b ;
+  }
+  .bookNow-saga:hover{
+    background-color:#d32424 ;
+    cursor: pointer;
+  }
+
+  .modalMainIndex{
+    margin-top: 3% !important;
+  }
+
+.designClass1{
+  margin-top: 6%;
+  padding-bottom: 430px;
+  padding-top: 150px;
+  }
+  .designDiv2{
+    margin-left: 6vw;
+    width: 30%;
+   }
+
+.sliderbutton{
+  text-align: center;
+}
+
+
+.GridMarginTopBottomInterior{
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.intRes0{
+width:100% !important;
+margin-left: 0 !important;
+}
+
+
+}

@@ -1,0 +1,129 @@
+.contactMain{
+    /* height: calc(100vh - 70px); */
+    min-width:100%;
+    background-color: #ededed;
+    margin-top: 70px;
+}
+.contactMain .form-control{
+    height: 50px;
+    border-radius: 8px !important;
+    border: none !important;
+    font-size: 17px;
+}
+.contactMain  .form-control2{
+    height: 150px;
+    width:100%;
+    border-radius: 8px !important;
+    border: none !important;
+    font-size: 17px !important;
+}
+.contactMain .submitBtn{
+    display: flex;
+    justify-content: flex-start;
+    height: 150px;
+    min-width: 100%;
+    align-items: flex-end;
+}
+.contactMain .submitBtn .btn{
+    min-height: 45px;
+    min-width: 165px;
+    background-color: #d1d1d1a8;
+    font-size: 0.8vw;
+    border-radius: 10px;
+    letter-spacing: -0.5px;
+}
+.contactMain .submitBtn .btn:hover{
+    min-height: 40px;
+    min-width: 160px;
+    background-color: #d1d1d1;
+    font-size: 0.8vw;
+    border-radius: 10px;
+}
+.contactMain .selector{
+    font-weight: 600;
+    color: #545658;
+}
+.contactMain .heading{
+    font-size: 3vw;
+    padding: 25px 0px 15px 50px;
+}
+.contactMain .subHeading{
+    font-size: 1.5vw;
+    padding: 25px 0px 15px 50px;
+}
+.contactMain .MuiSvgIcon-root{
+    height:20px;
+    width:20px;
+    color:red;
+}
+.contactMain .addIcon{
+    color: black !important;
+    height: 30px;
+    width: 30px;
+}
+
+
+@media only screen and (max-width:599px){
+    .contactMaininner{
+        display:none !important
+    }
+    .contactMainMobile{
+        display: block !important;
+    }
+     .headingContact{
+        font-size: 18px !important;
+        padding: 20px 0px 15px 5px !important;
+
+    }
+    .headingContact0{
+        font-size: 30px !important;
+        padding: 23px 0px 15px 5px !important;
+
+    }
+     .subHeadingContact{
+        font-size: 20px !important;
+        padding: 25px 0px 15px 5px !important;
+    }
+    .headingPhone{
+        font-size: 15px !important;
+         padding-right:0% !important;
+         padding-top:10% !important;
+    }
+    .headingPhone2{
+        margin-left: 0px !important;
+    }
+.contactText{
+    font-size: 15px !important;
+    padding: 20px 0px 15px 5px !important;
+}
+.contactText3{
+    font-size: 10px !important;
+    padding: 20px 0px 15px 5px !important;
+}
+.submitBtn{
+    padding-top: 4% !important;
+display: flex !important;
+align-items: flex-start !important;
+justify-content: center !important;
+}
+
+ .submitBtn .btn{
+    /* min-height: 45px; */
+    min-width: 165px;
+    background-color: #d1d1d1a8;
+    font-size: 12px !important;
+    border-radius: 10px;
+    letter-spacing: -0.5px;
+}
+.contacError{
+    font-size: 12px !important;
+    margin-top: -15% !important;
+    margin-left: 30% !important;
+}
+.bookingTextByClickingcontact{
+    font-size:15px !important;
+    padding-left: 2% !important;
+    padding-right: 10px !important;
+    padding-top: 20px !important;
+}
+}

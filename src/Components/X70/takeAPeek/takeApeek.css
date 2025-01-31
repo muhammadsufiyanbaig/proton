@@ -1,0 +1,328 @@
+.takeAPeekX70Main{
+    height: calc(100vh + 100px);
+    width: calc(100vw);
+    margin-top:3%;
+    /* */
+}
+.TakeApeekhead{
+    text-align: center;
+    word-spacing: 2vw;
+    letter-spacing: 1.6vw;
+    margin-top:160px
+  }
+.takeAPeekX70Main .addIcon{
+    position: absolute;
+    cursor: pointer;
+}
+.takeAPeekX70Main .ExpandIcon1{
+    margin-top: 11%;
+    margin-left: 23%;
+}
+.takeAPeekX70Main .ExpandIcon2{
+    margin-top: 22%;
+    margin-left: 82%;
+}
+.takeAPeekX70Main .ExpandIcon3{
+    margin-top: 31%;
+    margin-left: 41%;
+}
+.takeAPeekX70Main .ExpandIcon4{
+    margin-top: 45%;
+    margin-left: 42%;
+}
+.takeAPeekX70Main .ExpandIcon5{
+    margin-top: 45%;
+    margin-left: 55%;
+}
+.takeAPeekX70Main .ExpandIcon6{
+    margin-top: 49%;
+    margin-left: 52%;
+}
+.takeAPeekX70Main .ExpandIcon7{
+    margin-top: 32%;
+    margin-left: 61%;
+}
+.takeAPeekX70Main .takeaPeekText{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 2%;
+    max-height: auto;
+    max-width: 28%;
+}
+.takeAPeekX70Main .ExpandIcon1Interior{
+    margin-top: 25%;
+    margin-left: 30%;
+}
+.takeAPeekX70Main .ExpandIcon2Interior{
+    margin-top: 19%;
+    margin-left: 59%;
+
+}
+.takeAPeekX70Main .ExpandIcon3Interior{
+    margin-top: 7%;
+    margin-left: 66%;
+}
+.takeAPeekX70Main .ExpandIcon4Interior{
+    margin-top: 43%;
+    margin-left: 62%;
+}
+
+.takeAPeekX70Main .ExpandedImage{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 2%;
+    max-height: auto;
+    max-width: 35%;
+}
+
+#buttonsize{
+    height: 35px ;
+    width:35px 
+}
+
+
+.radiation{
+    animation: scaleIn 1.5s infinite cubic-bezier(.36, .11, .89, .32);
+    background-color: blue;
+    height: 37px ;
+    width:37px ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 200px;
+}
+
+
+@keyframes scaleIn {
+    from {
+      transform: scale(.5, .5);
+      opacity: .5;
+    }
+    to {
+      transform: scale(1.5, 1.5);
+      opacity: 0;
+    }
+  }
+.button1{
+    height:5%;
+    position:absolute;
+    right:10%;
+    margin-top:18.5%;
+    color:#ffffff;
+    font-weight: bold;
+    }
+    
+    
+.button2{
+    height:5%;
+    position:absolute;
+    right:10%;
+    margin-top:33.5%;
+    color:#ffffff;
+    font-weight: bold;
+    }
+
+  .buttomButtonsX70{
+      margin-top: -3%;
+  }
+
+.takeAPeekX70Main .ExpandedImageInterior{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 2%;
+    max-height: auto;
+    max-width: 35%;
+}
+
+
+@media only screen and (max-width: 599px) {
+    .ahostofLuxury{
+        font-size: 14px !important;
+        padding-bottom: 20px !important;
+    }
+    .takeApeekchangingButtonsMobileX70{
+        display:flex !important;
+        justify-content: center !important;
+        position:absolute !important;
+        margin-top: 65% !important;
+        width:100% !important
+    }
+    .takeAPeekX70Main{
+        display: none;
+    }
+    .takeApeekMobileX70{
+        display: block !important;
+    }
+    .ExpandedImageMobileX70{
+        display: block !important;
+        margin-top: 8% !important;
+        margin-left: 17%;
+        max-height: auto;
+        max-width: 70%;
+    }
+    
+    .bm{
+        display:none !important
+    }
+    .addIconMobileX70{
+        position: absolute;
+        cursor: pointer;
+        height: 30px !important;
+        width:30px !important;
+        border-radius: 20px;
+    }
+.ExpandIcon1MobileX70{
+    margin-top: 7%;
+    margin-left: 23%; 
+}
+.ExpandIcon2MobileX70{
+    margin-top: 18%;
+    margin-left: 75%; 
+}
+.ExpandIcon3MobileX70{
+    margin-top: 25%;
+    margin-left: 35%; 
+}
+.ExpandIcon4MobileX70{
+    margin-top: 42%;
+    margin-left: 40%; 
+}
+.ExpandIcon5MobileX70{
+    margin-top: 41%;
+    margin-left: 53%; 
+}
+.ExpandIcon6MobileX70{
+    margin-top: 45% !important;
+    margin-left: 46% !important; 
+}
+.ExpandIcon7MobileX70{
+
+    margin-top: 25%;
+    margin-left: 53%; 
+}
+ .ExpandIcon1Interior{
+    margin-top: 24% !important;
+    margin-left: 30% !important;
+}
+ .ExpandIcon2Interior{
+    margin-top: 16%;
+    margin-left: 57%;
+}
+ .ExpandIcon3Interior{
+    margin-top: 7%;
+    margin-left: 66%;}
+ .ExpandIcon4Interior{
+    margin-top: 43%;
+    margin-left: 62%
+}
+
+.tm{
+    margin-top: 20% !important;
+}
+.takeAPeekX70Main{
+    width: calc(100vw);
+    height:50% !important
+}
+}
+@media only screen and (max-width: 768px) {
+    .takeAPeekX70Main{
+        display: none;
+    }
+    .takeApeekMobileX70{
+        display: block !important;
+    }
+    .ExpandedImageMobileX70{
+        display: block !important;
+        margin-top: 10%;
+        margin-left: 17%;
+        max-height: auto;
+        max-width: 70%;
+    }
+    
+    .addIconMobileX70{
+        position: absolute;
+        cursor: pointer;
+        height: 30px !important;
+        width:30px !important;
+        border-radius: 20px;
+    }
+    .ExpandIcon1MobileX70{
+
+        margin-top: 7%;
+        margin-left: 23%; 
+    }
+    .ExpandIcon2MobileX70{
+    
+        margin-top: 18%;
+        margin-left: 75%; 
+    }
+    .ExpandIcon3MobileX70{
+    
+        margin-top: 25%;
+        margin-left: 35%; 
+    }
+    .ExpandIcon4MobileX70{
+        margin-top: 42%;
+    
+        margin-left: 40%; 
+    }
+    .ExpandIcon5MobileX70{
+        margin-top: 41%;
+        margin-left: 53%; 
+    
+    }
+    .ExpandIcon6MobileX70{
+    
+        margin-top: 49%;
+        margin-left: 48%; 
+    }
+    .ExpandIcon7MobileX70{
+    
+        margin-top: 25%;
+        margin-left: 53%; 
+    }
+     .ExpandIcon1Interior{
+        margin-top: 44%;
+        margin-left: 50%;
+    }
+     .ExpandIcon2Interior{
+        margin-top: 16%;
+        margin-left: 57%;
+    }
+     .ExpandIcon3Interior{
+        margin-top: 7%;
+        margin-left: 66%;}
+     .ExpandIcon4Interior{
+        margin-top: 43%;
+        margin-left: 62%
+    }
+}
+
+
+@media only screen and (min-width: 1680px) {
+    .buttomButtonsX70{
+        margin-top: -10%;
+    }
+    .button1{
+        height:5%;
+        position:absolute;
+        right:9.5%;
+        margin-top:20%;
+        color:#ffffff;
+        font-weight: bold;
+        font-size: 15px;
+        }
+           
+    .button2{
+        font-size: 15px;
+        height:5%;
+        position:absolute;
+        right:9.5%;
+        margin-top:36.8%;
+        color:#ffffff;
+        font-weight: bold;
+        }
+}
+
+

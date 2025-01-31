@@ -1,0 +1,117 @@
+.designSlider-mainWrapper{
+    /* height:calc(100vh); */
+    width: 100%;
+}
+.designSlider-mainWrapper .slider-image{
+    height: 100%;
+    width: 100%;
+}
+.designSlider-mainWrapper .slider-text{
+    position: absolute;
+    width: 40%;
+    margin: 10% 3%;
+}
+.carousel-indicators li{
+    width: 70px !important;
+    height: 5px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+
+@media only screen and (max-width:425px){
+    .mobileHeadsurprising{
+        position: absolute;
+        display: block !important;
+        background-color: #ea433578;
+        padding:10px 0px 0px 10px !important;
+         margin:10px 1px 0px 15px !important; 
+        width:53% !important
+    }
+    .designSlider-mainWrapper{
+        width: 100%;
+    }
+.mobileactualhead{
+    display: block !important;
+}
+    .designImageMobile{
+        height:23vh  !important;
+    }
+    
+    .designSlider-mainWrapper .slider-text{
+        position: absolute;
+        width: 70%;
+        margin: 3% 3% !important;
+    }
+    .slider-text{
+     display: none; 
+    }
+    
+    .sliderInnerText1{
+        font-size:18px !important;
+    }
+    .sliderInnerText2{
+        display: none !important;
+    }
+    .carousel-indicators li{
+        width: 30px !important;
+        height: 3px !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        border-radius: 5px;
+        margin-bottom:0% !important;
+
+      }
+}
+
+@media only screen and (min-width:426px) and (max-width:1024px){
+    .designSlider-mainWrapper{
+        width: 100%;
+    }
+    
+    .designSlider-mainWrapper .slider-text{
+        position: absolute;
+        width: 50%;
+        margin: 3% 3% !important;
+    }
+    .sliderInnerText1{
+        font-size:20px !important;
+    }
+    .sliderInnerText2{
+        font-size:15px !important;
+        line-height: 15px !important;
+    }
+    .carousel-indicators li{
+        width: 30px !important;
+        height: 3px !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        border-radius: 5px;
+        margin-bottom:0% !important;
+
+      }
+}
+
+
+
+
+
+
+@media only screen and (min-width:1680px){
+    .designSlider-mainWrapper{
+        /* height:calc(90vh); */
+        width: 100%;
+    }
+    .designSlider-mainWrapper .slider-image{
+        margin-top: 6% ;
+        height: 100%;
+        width: 100%;
+    }
+    .designSlider-mainWrapper .slider-text{
+        position: absolute;
+        width: 40%;
+        margin: 3% 3%;
+    }
+    
+}

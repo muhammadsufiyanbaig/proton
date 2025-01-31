@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  padding: 0 0 100px 0;
+  font-family: sans-serif;
+  overflow-x: hidden; }
+  .carousel-control-next-icon{
+    background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-forward-512.png");
+    background-size: 100% 100%;
+    height: 100%;
+    width:100%;
+    cursor: pointer;
+  }
+  .carousel-control-prev-icon{
+    background-image: url("https://banner2.cleanpng.com/20180604/sp/kisspng-computer-icons-arrow-iphone-symbol-back-icon-5b14eb80b48d76.5197081915280976647396.jpg");
+    background-size: 100% 100%;
+    height: 100%;
+    width:100%;
+    cursor: pointer;
+  }
+.App {
+  text-align: center;
+  position: relative; }
+
+.App-logo {
+  height: 80px; }
+
+/* DEMO STYLES */
+.nav {
+  padding: 30px 0;
+  background-color: #222; }
+
+.nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  margin: 0 15px;
+  padding: 10px;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  color: white; }
+
+.nav a.active {
+  background-color: #61DAFB;
+  color: #222; }
+
+section {
+  padding: 20px 0;
+  max-width: 600px;
+  margin: 0 auto; }
+
+/* #endregion */
+/* #region Card */
+/* Card */
+.card {
+
+  transition: all 0.3s linear;
+  cursor: pointer;
+  background-color: #f3f3f3;
+  padding: 1px !important;
+  /* margin: -4px !important; */
+
+
+  /* max-width: 220px; */
+  text-align: left;
+  margin: 0 auto;
+
+}
+  .card:hover {
+    background-color: #f3f3f3;
+    /* border-color: #f3f3f3;  */
+  }
+  .card img {
+    max-width: calc(100%);
+    margin: 0 auto;
+    display: block; }
+  .card .index {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 0 10px; }
+  .card .price {
+    margin: 0;
+    padding: 10px 0;
+    font-weight: bold; }
+  .card .details {
+    position: relative; }
+  .card .features {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .card .features li {
+      padding-left: 24px;
+      margin-right: 10px;
+      display: inline-block; }
+      .card .features li span {
+        display: none; }
+.cards-slider-wrapper {
+  display: flex;
+  position: absolute;
+  transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955); 
+}
+  .cards-slider-wrapper .card {
+    flex: 1;
+    min-width: 200px;
+    background-color: white;
+    border-color: white !important;
+  }
+    .cards-slider-wrapper .card .details {
+      opacity: 1;
+       }
+
+.cards-slider.active-slide-0 #card-0 {
+  opacity: 1;
+  /* background-color: #f3f3f3; */
+   }
+ 
+
+.cards-slider.active-slide-1 #card-1 {
+  opacity: 1;
+  /* background-color: #f3f3f3; */
+  /* border-color: #f3f3f3; } */
+}
+ 
+
+.cards-slider.active-slide-2 #card-2 {
+  opacity: 1;
+  /* background-color: #f3f3f3; */
+  /* border-color: #f3f3f3;  */
+}
+.cards-slider.active-slide2-2 #card-2{
+  opacity: 1;
+
+  margin-right: 900px;
+}
+ 
+
+.cards-slider.active-slide-3 #card-3 {
+  opacity: 1;
+  /* background-color: #f3f3f3; */
+  /* border-color: #f3f3f3;  */
+}
+ 
+.cards-slider.active-slide-4 #card-4 {
+  opacity: 1;
+  transform: scale(1);
+  /* background-color: #f3f3f3; */
+  /* border-color: #f3f3f3;  */
+  margin-right: 400px;
+}
+ 
+.cards-slider.active-slide-6 #card-6 {
+  opacity: 1;
+  transform: scale(1);
+  /* background-color: #f3f3f3; */
+  /* border-color: #f3f3f3;  */
+  margin-right: 400px;
+}
+
+.cards-slider {
+  position: relative;
+  max-width: 67%;
+  margin: 0 auto; }
+  .cards-slider:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 215px;
+    
+    top: 0;
+    left: 0; }
+
+/* #endregion */
+  .SliderInnerText{
+    padding-top: 33vh;
+    padding-left: 1vw;
+  }
+    .SliderInnerTextSaga{
+    margin-top: 40%;
+    /* padding-left: 5%; */
+  }
+  /* #endregion */
+
+
+  @media only screen and (min-width: 100px) and (max-width:599px) {
+  
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width:767px){
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width:991px) {}
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width:1366px) {
+    .cards-slider.active-slide-4 #card-4 {
+      opacity: 1;
+     transform: scale(1);
+     margin-right: 470px;
+   }
+   .cards-slider.active-slide2-2 #card-2{
+    opacity: 1;
+    margin-right: 800px;
+  }
+  /* .SliderInnerTextSaga{
+    padding-top: 49vh;
+    padding-left: 1vw;
+  } */
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width:1367px) and (max-width:1679px) {
+    .cards-slider.active-slide-4 #card-4 {
+        opacity: 1;
+       transform: scale(1);
+       margin-right: 230px ;
+     }
+     .cards-slider.active-slide2-2 #card-2{
+      opacity: 1;
+      margin-right: 370px;
+    }
+     /* .SliderInnerTextSaga{
+      padding-top: 40vh;
+      padding-left: 1vw;
+    } */
+  }
+
+
+  @media only screen and (min-width: 1680px) and (max-width:2129px) {
+    .cards-slider.active-slide-4 #card-4 {
+        opacity: 1;
+       transform: scale(1);
+       margin-right: 22px;
+     }
+     .cards-slider.active-slide2-2 #card-2{
+      opacity: 1;
+      margin-right: 22px;
+    }
+    /* .SliderInnerTextSaga{
+      padding-top: 28vh;
+      padding-left: 1vw;
+    } */
+  }
+
+  @media only screen and (min-width:2130px){
+    .cards-slider.active-slide-4 #card-4 {
+      opacity: 1;
+     transform: scale(1);
+     margin-right: 22px;
+   }
+   .cards-slider.active-slide2-2 #card-2{
+    opacity: 1;
+    margin-right: 22px;
+  }
+  .SliderInnerText{
+    padding-top: 42vh;
+    padding-left: 1vw;
+  }
+  }

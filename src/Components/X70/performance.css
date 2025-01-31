@@ -1,0 +1,73 @@
+.performanceGridX70 {
+    padding-top: 12%;
+    padding-bottom: 5%;
+  }
+
+  @media only screen and (max-width: 599px) {
+    .performanceGridX70{
+      display:none !important;
+    }
+    .X70MobileMAinDiv{
+      display: block !important;
+    }
+
+  .headX70Perf{
+    font-size: 30px !important;
+  }
+  .text1X70Perf{
+    font-size: 15px !important;
+  }
+  .performanceFlexDivX70{
+    padding-left: 30px !important;
+  }
+  .performanceFlexDivInnerX70{
+    height:20% !important;
+  }
+.experianceMoreX70{
+  font-size: 15px !important;
+
+}
+  .enginAndImage{
+    display:block !important;
+   
+  }
+
+.enginSoundX70{
+  width:70% !important;
+  margin: 10% 10% !important;
+
+}
+
+.performanceX70Image1Main{
+  width:100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 20% ;
+}
+
+
+.performanceX70Image2{
+  margin-top: 20% ;
+  width:95% !important;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 13% !important;
+}
+
+
+.perfor2X70Head{
+  font-size: 25px !important;
+  /* text-align: center !important; */
+}
+
+.perfor2X70Text{
+  font-size: 15px !important;
+  text-align: center !important;
+
+}
+  .performance3Image{
+    margin-left: 0% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  }

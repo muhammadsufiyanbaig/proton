@@ -1,0 +1,94 @@
+.MainWrapperSection7{
+    height:calc(100vh + 33px);
+    width: 100vw;
+    display: flex;
+    margin-top:5px;
+}
+.MainWrapperSection7 .image1{
+    width: calc(61.8vw);
+    height:calc(100vh + 30px);
+}
+.MainWrapperSection7 .image2Wrapper{
+    display: flex;
+    width: calc(100vw);
+    height: 100%;
+    justify-content: flex-end;
+    position: absolute;
+}
+.MainWrapperSection7 .image2{
+    width: calc(53.5vw);
+    height:calc(100vh + 30px);
+}
+
+@media only screen and (min-width: 1px) and (max-width: 768px) {
+    .MainWrapperSection7{
+      display: none !important;
+    }
+    .MainWrapperSection7Mobile{
+        display: block !important;
+        margin-top: 2px !important;
+    }
+ 
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:1366px) and (max-width:1535px){
+    .MainWrapperSection7{
+        height:calc(100vh + 120px);
+        width: 100vw;
+        display: flex;
+    }
+    .MainWrapperSection7 .image1{
+        width: calc(61.8vw);
+        height:calc(100vh + 120px);
+    }
+    .MainWrapperSection7 .image2Wrapper{
+        display: flex;
+        width: calc(100vw);
+        height: 100%;
+        justify-content: flex-end;
+        position: absolute;
+    }
+    .MainWrapperSection7 .image2{
+        width: calc(53.5vw);
+        height:calc(100vh + 120px);
+    }
+}
+
+@media only screen and (min-width:1536px) and (max-width:1679px){
+    .MainWrapperSection7{
+        height:calc(100vh + 120px);
+        width: 100vw;
+        display: flex;
+    }
+    .MainWrapperSection7 .image1{
+        width: calc(61.8vw);
+        height:calc(100vh + 120px);
+    }
+    .MainWrapperSection7 .image2Wrapper{
+        display: flex;
+        width: calc(100vw);
+        height: 100%;
+        justify-content: flex-end;
+        position: absolute;
+    }
+    .MainWrapperSection7 .image2{
+        width: calc(53.5vw);
+        height:calc(100vh + 120px);
+    }
+}
+
+
+@media only screen and (min-width:1680px){
+    .MainWrapperSection7{
+        height:calc(100vh + 30px);
+        width: 100vw;
+        display: flex;
+    }
+
+}

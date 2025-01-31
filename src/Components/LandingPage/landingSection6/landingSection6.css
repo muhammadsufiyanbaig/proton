@@ -1,0 +1,35 @@
+
+
+.MainWrapperSection6{
+    width: 100vw;
+    display: flex;
+    margin-top:5px;
+}
+.MainWrapperSection6 .section1{
+    width: calc(71.65vw);
+}
+.MainWrapperSection6 .section2{
+    width: calc(28.35vw);
+    padding-top: 60px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .MainWrapperSection6{
+        display:none !important
+    }
+  .MainWrapperSection6Mobile{
+      display: block !important;
+      margin-top: 60px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+

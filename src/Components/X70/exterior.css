@@ -1,0 +1,97 @@
+.GridMarginTopBottomExteriorX70 {
+    padding-top: 13%;
+    padding-bottom: 2%;
+  }
+  .GridMarginTopBottomExterior2X70 {
+    padding-top: 13%;
+    padding-bottom: 10%;
+  }
+  .GridMarginTopBottomExterior3X70 {
+    padding-top: 2%;
+    padding-bottom: 10%;
+  }
+
+ .ExteriorGridTextX70 {
+  padding-left: 120px;
+}
+
+
+
+@media only screen and (max-width: 599px) {
+  .ConvenienceAtaStep{
+    display: none;
+  }
+  .ConvenienceAtaStepMobile{
+    display: block !important;
+   padding-left: 20px !important;
+    width:95% !important;
+  }
+  .convenienceHead{
+    font-size: 23px !important;
+    letter-spacing: -2px !important;
+  }
+  .GridMarginTopBottomExteriorX70{
+    display:none
+  }
+  .GridMarginTopBottomExterior2X70 {
+ display:none
+  }
+  .exterior1ImageMain{
+    width:100% !important;
+    display: flex;
+    justify-content: center !important;
+
+  }
+.exterior1Image{
+  width:80% !important;
+  padding-bottom: 15% !important;
+
+}
+.ExteriorGridTextX70 {
+  padding-left: 0px !important;
+}
+.ext2TextMain{
+  width:100% !important;
+  padding-bottom: 15% !important;
+}
+.GridMarginTopBottomExterior3X70{
+  padding-top: 0% !important;
+  
+}
+.ext3MainFoot{
+  margin-top: -10% !important;
+}
+.ext3Head{
+  width:100% !important;
+  font-size: 20px !important;
+  padding-left: 50px !important;
+}
+.AirbnbSlider{
+  width:100% !important;
+padding-left: 50px;
+padding-top: 0% !important;
+}
+.AirbnbSliderInner1{
+  height: 30vh !important;
+}
+.swingYourfootText{
+  display: none !important;
+}
+.shoes{
+  width:40px !important;
+  position: relative;
+  right: 8px !important;
+}
+.airbsliderMobile{
+  height:51% !important;
+}
+.LiftToOpenText1{
+
+  padding-top: 0px !important;
+
+}
+.LiftToOpenText{
+  font-size: 10px !important;
+
+}
+}

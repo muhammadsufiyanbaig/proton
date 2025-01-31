@@ -1,0 +1,162 @@
+/* Safety Main Image */
+.X70SafetyMain{
+  height: calc(100vh);
+  width: 100%;
+  margin-top: 200px;
+  padding-top: 50px;
+}
+.X70SafetyImage {
+    height: calc(100vh);
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.GridMarginTopSafetyX70{
+  padding-top: 15%;
+}
+.safetyheadingX70 {
+  text-align: center;
+  word-spacing: 2vw;
+  letter-spacing: 1.6vw;
+  margin-top: 0% !important;
+  padding-top: 10%;
+  padding-bottom: 4%;
+}
+
+.X70SafetyImage .BarStyle1{
+  max-height: 35%;
+  max-width: 35%;
+  margin-top: 14%;
+  margin-left: 47.5%;
+  position: absolute;
+}
+
+.X70SafetyImage .BarStyle2{
+  max-height: 35%;
+  max-width: 35%;
+  margin-top: 6%;
+  margin-left: 8%;
+  position: absolute;
+
+
+}
+.X70SafetyImage .BarStyle3{
+  max-height: 35%;
+    max-width: 35%;
+    margin-top: 22.5%;
+    margin-left: 55%;
+    position: absolute;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .reasseredsafety{
+font-size: 14px !important;
+  }
+  .desktopBars{
+    display: none;
+  }
+  .MobileBars{
+    display: block !important;
+  }
+  .BarStyle1{
+    max-width: 45% !important;
+    margin-top: 31% !important;
+    margin-left: 47.5% !important;
+    position: absolute;
+  }
+  
+  .BarStyle2{
+    max-width: 45% !important;
+    margin-top: -27% !important;
+    margin-left: 12% !important;
+    position: absolute !important;
+  }
+  .BarStyle3{
+      max-width: 45% !important;
+      margin-top: -14.5% !important;
+      margin-left: 38% !important;
+      position: absolute !important;
+  }
+  .safety1x70{
+    display:none !important;
+  }
+  .safetymobilehead{
+    margin-bottom: -50% !important;
+    margin-top: -10% !important;
+  }
+  .safetyBarImage{
+    height:100% !important;
+    width:100% !important
+  }
+  .safetyFirst{
+    text-align: center !important;
+    font-size: 20px !important;
+    letter-spacing: 0px !important;
+  }
+  .safetytext{
+    font-size: 15px !important;
+    width:100% !important;
+    text-align: center !important;
+  }
+  .X70SafetyImage{
+    margin-top: 20% !important;
+    height:100% !important
+  }
+  .X70SafetyMainM{
+    margin-top: -10% !important;
+    height:0% !important;
+    width:100% !important;
+  }
+  .safResX70{
+    width:100% !important
+  }
+  .ADASsystem{
+    padding-top: 5px !important;
+  }
+  .adasText{
+    padding-top: 20px !important;
+    font-size: 14px !important;
+  }
+  .adasText2{
+    padding-top: 110px !important;
+
+    font-size: 10px !important;
+  }
+  .GridMarginTopSafetyX70M{
+    display:none  !important;
+  }
+  .m{
+    margin-top:-20% !important;
+  }
+  .safety4M{
+    margin-left: 5% !important;
+  width:100% !important;
+  padding-bottom: 20px !important;
+  }
+  .safetyM4{
+    width:100% !important;
+  }
+}
+
+
+
+
+
+@media only screen and (min-width: 1680px) {
+  .safResX70{
+      width:100% !important;
+      margin-left: 0 !important;
+      }
+      .X70SafetyImage {
+        height: calc(100vh);
+        width: 100%;
+        margin-top: 100px;
+        padding-top: 100px;
+        margin-bottom: -150px;
+    }
+    .GridMarginTopSafetyX70{
+      padding-top: 10%;
+    }
+}

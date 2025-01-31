@@ -1,0 +1,241 @@
+.mainWrappersection2{
+    margin-bottom: 120px;
+    margin-top:40px;
+}
+.section2Main-wrapper{
+    width: 100vw;
+    display: flex;
+    padding: 10px 40px 20px 40px;
+}
+.section2Main-wrapper .image1{
+    height:100%;
+    width: calc(30vw);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.section2Main-wrapper .bottomImages{
+    margin-right:40%;
+}
+.section2Main-wrapper .image2Bottom{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.section2Main-wrapper .image2{
+    height:100%;
+    width: 45vw;
+    display: flex;
+    margin-top: 100px;
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+.section2Main-wrapper .image3{
+    height:100%;
+    width: calc(30vw);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+.section2Main-wrapper .animateImage1Clock{
+    position: relative;
+    animation: image1AnimationClock 2s ease forwards;
+}
+.section2Main-wrapper .animateImage1AntiClock{
+    position: relative;
+    animation: image1AnimationAntiClock 2s ease forwards;
+}
+
+.section2Main-wrapper .animateImage2Clock{
+    position: relative;
+    animation: image2AnimationClock 2s ease forwards;
+}
+.section2Main-wrapper .animateImage2AntiClock{
+    position: relative;
+    animation: image2AnimationAntiClock 2s ease forwards;
+}
+
+.section2Main-wrapper .animateImage3Clock{
+    position: relative;
+    animation: image3AnimationClock 2s ease forwards;
+}
+.section2Main-wrapper .animateImage3AntiClock{
+    position: relative;
+    animation: image3AnimationAntiClock 2s ease forwards;
+    z-index: -99 !important;
+}
+
+
+
+.arrow-Wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 190px;
+    margin-top: -100px;
+    cursor: pointer;
+}
+.arrowImageLeft2{
+    visibility: hidden;
+}
+.arrow-Wrapper-left-wrapper:hover .arrowImageLeft2{
+    visibility:visible !important;
+}
+.arrow-Wrapper-left-wrapper:hover .arrowImageLeft1{
+    display: none;
+}
+
+.arrowImageRight2{
+    visibility: hidden;
+}
+.arrow-Wrapper-right-wrapper:hover .arrowImageRight2{
+    visibility:visible !important;
+}
+.arrow-Wrapper-right-wrapper:hover .arrowImageRight1{
+    display: none;
+}
+@media only screen and (max-width:1200px){
+.mainWrappersection2{
+    display: none !important;
+}
+    @keyframes image1AnimationClock {
+        0%   {left:0%; top:0px;}
+        100% {left:68%; top:0px;}
+    }
+    
+    @keyframes image2AnimationClock {
+        0%   {left:0%; top:0px;}
+        100% {left:-82%; top:-162px;}
+        to {
+            transform: scale(0.67);
+        }
+    }
+    
+    @keyframes image3AnimationClock {
+        0%   {right:0%; margin-top:0%;}
+        100% {right:35.7%; margin-top:12%;}
+        to {
+            transform: scale(1.52);
+        }
+    }
+    
+
+    @keyframes image1AnimationAntiClock {
+        0%   {left:0%; margin-top:0%;}
+        100% {left:32.45%; margin-top: 12.12%;}
+        to {
+            transform: scale(1.533);
+        }
+    }
+    @keyframes image2AnimationAntiClock {
+        0%   {left:0%; top:0px;}
+        100% {left:90.9%; top:-163px;}
+        to {
+            transform: scale(0.65);
+        }
+    }
+    @keyframes image3AnimationAntiClock {
+        0%   {right:0%; top:0px;}
+        100% {right:68.33%; top:0px;}
+    }
+}
+
+
+@media only screen and (min-width:1201px)  and (max-width:1679px){
+    @keyframes image1AnimationClock {
+        0%   {left:0%; top:0px;}
+        100% {left:68%; top:0px;}
+    }
+    
+    @keyframes image2AnimationClock {
+        0%   {left:0%; top:0px;}
+        100% {left:-82%; top:-162px;}
+        to {
+            transform: scale(0.67);
+        }
+    }
+    
+    @keyframes image3AnimationClock {
+        0%   {right:0%; margin-top:0%;}
+        100% {right:35.7%; margin-top:12%;}
+        to {
+            transform: scale(1.52);
+        }
+    }
+    
+
+    @keyframes image1AnimationAntiClock {
+        0%   {left:0%; margin-top:0%;}
+        100% {left:32.45%; margin-top: 12.12%;}
+        to {
+            transform: scale(1.533);
+        }
+    }
+    @keyframes image2AnimationAntiClock {
+        0%   {left:0%; top:0px;}
+        100% {left:90.9%; top:-163px;}
+        to {
+            transform: scale(0.65);
+        }
+    }
+    @keyframes image3AnimationAntiClock {
+        0%   {right:0%; top:0px;}
+        100% {right:68.33%; top:0px;}
+    }
+}
+
+
+
+
+@media only screen and (min-width:1680px){
+    .section2Main-wrapper{
+        width: 100vw;
+        display: flex;
+        padding: 110px 40px 20px 40px;
+    }
+    @keyframes image1AnimationClock {
+        0%   {left:0%; top:0px;}
+        100% {left:68.5%; top:0px;}
+    }
+    
+    @keyframes image2AnimationClock {
+        0%   {left:0%; top:0px;}
+        100% {left:-78.2%; top:-152px;}
+        to {
+            transform: scale(0.715);
+        }
+    }
+    
+    @keyframes image3AnimationClock {
+        0%   {right:0%; margin-top:0%;}
+        100% {right:37.6%; margin-top:10.05%;}
+        to {
+            transform: scale(1.4);
+        }
+    }
+    
+    
+    @keyframes image1AnimationAntiClock {
+        0%   {left:0%; margin-top:0%;}
+        100% {left:30.9%; margin-top: 10.05%;}
+        to {
+            transform: scale(1.4);
+        }
+    }
+    @keyframes image2AnimationAntiClock {
+        0%   {left:0%; top:0px;}
+        100% {left:95.2%; top:-152px;}
+        to {
+            transform: scale(0.715);
+        }
+    }
+    @keyframes image3AnimationAntiClock {
+        0%   {right:0%; top:0px;}
+        100% {right:68.5%; top:0px;}
+    }
+}

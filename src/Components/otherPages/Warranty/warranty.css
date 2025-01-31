@@ -1,0 +1,19 @@
+.warrantyMain{
+    margin-bottom: 108px ;
+}
+.warrantyHeadings{
+     font-size: 30px;   
+}
+@media only screen and (min-width: 200px) and (max-width:768px){
+    .warrantyMain{
+        margin-bottom: 0px !important;
+    }
+    .warrantyHeadings{
+         width:100% !important;
+     font-size: 12px !important;   
+letter-spacing: 0px !important;
+font-weight: 600;
+padding-left: 20px !important;
+
+    }
+}

@@ -1,0 +1,111 @@
+.bookingMain{
+    /* height: 330vh; */
+    min-width:70%;
+    background-color: #ededed;
+    margin-top: 70px;
+    /* margin-bottom: 100px; */
+}
+.bookingMain .form-control{
+    height: 50px;
+    border-radius: 8px !important;
+    border: none !important;
+    font-size: 17px;
+}
+.bookingMain .form-control2{
+    height: 100px;
+    width:500px;
+    border-radius: 8px !important;
+    border: none !important;
+    font-size: 17px !important;
+}
+.bookingMain .selector{
+    font-weight: 600;
+    color: #545658;
+    font-size: 17px !important;
+
+}
+.bookingMain .heading{
+    font-size: 3vw;
+    padding: 25px 0px 15px 50px;
+}
+.bookingMain .subHeading{
+    font-size: 1.5vw;
+    padding: 25px 0px 15px 50px;
+}
+.bookingMain .MuiSvgIcon-root{
+    height:20px;
+    width:20px;
+    color:red;
+}
+.bookingMain .addIcon{
+    color: black !important;
+    height: 30px;
+    width: 30px;
+}
+.bookingMain .submitBtn{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    min-width: 100%;
+    align-items: center;
+}
+.bookingMain .submitBtn .btn{
+    min-height: 45px;
+    min-width: 165px;
+    background-color: #d1d1d1a8;
+    font-size: 0.8vw;
+    border-radius: 10px;
+    letter-spacing: -0.5px;
+}
+.bookingMain .submitBtn .btn:hover{
+    min-height: 40px;
+    min-width: 160px;
+    background-color: #d1d1d1;
+    font-size: 0.8vw;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:599px){
+    .bookingMain .heading{
+        font-size: 30px !important;
+        padding: 25px 0px 15px 5px !important;
+    }
+   
+    .bookingMain .subHeading{
+        font-size: 18px !important;
+        padding: 29px 0px 15px 5px !important;
+    }
+    .bookingMain .bookingText{
+        font-size:15px !important;
+        padding: 25px 0px 15px 5px !important;
+    }
+    .bookingTextByClicking{
+        font-size:15px !important;
+        padding-left: 2% !important;
+        padding-right: 10px !important;
+line-height: 20px !important;
+padding-top: 50px !important;
+    }
+    .inputMainDiv{
+        display:block !important
+    }
+    .bookingMain .form-control2{
+        height: 100px !important;
+        width:300px !important;
+        border-radius: 8px !important;
+        border: none !important;
+        font-size: 17px !important;
+    }
+    .bookingMain .submitBtn .btn{
+        /* min-height: 45px; */
+        min-width: 165px;
+        background-color: #d1d1d1a8;
+        font-size: 12px !important;
+        border-radius: 10px;
+        letter-spacing: -0.5px;
+    }
+    .errorText{
+        font-size: 15px !important;
+        margin-top: -18% !important;
+    }
+}

@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'GothamBoldItalic';
+  src: local('GothamBoldItalic'), url(../../assets/fonts/GothamMedium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family:'GOTHAM-LIGHT';
+  src: local('GOTHAM-LIGHT'), url(../../assets/fonts/gothomlight.TTF) format('truetype');
+}
+
+@font-face {
+  font-family:'GothamMedium';
+  src: local('GothamMedium'), url(../../assets/fonts/GothamMedium.ttf) format('truetype');
+}
+
+a {
+  color:black
+}
+a:hover{
+  color:black;
+  text-decoration: none;
+}
+.jss3{
+  margin-right:0px !important;
+  margin-top: 0px !important;
+}
+
+.menuColorChangeonHover2:hover {
+  background-color: red !important;
+}
+
+.internatinalCarsOpacity:hover{
+  opacity: 0.9;
+}
+#listitemstyle{
+  font-family:GothamMedium;
+} 
+.makeStyles-menuButton-3{
+  margin-right: 0px !important;
+  background-color: #ffffff !important;
+  margin-top: 0px !important;
+}
+
+.MuiSvgIcon-root {
+    font-size: 2rem !important;
+}
+
+.MuiList-padding{
+  padding-top: 0px !important;
+}
+button:focus{
+  outline: 0px;
+}
+.appBar{
+  height: 67px;
+}
+
+.MuiDrawer-paper{
+  width:100%;
+  margin-top:65px;
+}  
+.MuiBackdrop-root{
+  opacity:0 !important;
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: none !important;
+}
+.vl{
+ 
+  border-right: 1px solid black;
+  height: 160px;
+  margin-top: 50px;
+}
+
+.menuchild{
+margin-top: 30px;
+}
+.divCarPictures{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px);
+}
+
+/* .MuiIconButton-edgeStart{
+  margin-left: 0px !important;
+} */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 100px) and (max-width:599px) {
+ 
+.searchBarD{
+  display: none !important;
+}
+  .makeStyles-menuButton-3{
+    background-color: #ffffff !important;
+    margin-top: 10px !important;
+  }
+  .MuiSvgIcon-root {
+    padding-right: 3% !important;
+}
+  .DesktopNavbar{
+    display: none;
+  }
+ .protonLogoAppbar{
+   height:30px !important;
+   width: 150px !important;
+ }
+ .socialIconAppbar{
+   display:none !important
+ }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:768px){
+  .searchBarD{
+    display: none !important;
+  }
+  .DesktopNavbar{
+    display: none;
+  }
+  .socialIconAppbar{
+    display:none !important
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width:991px) {
+  .MobileNavbar{
+    display: none;
+  }
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width:1366px){
+  .MobileNavbar{
+    display: none;
+  }
+  .DrawerRightSection1{
+    height:398px !important;
+  }
+ 
+.divider{
+  margin-top: -7.7% !important;
+}
+.InternationalLineUp{
+  margin-top: -7%;
+}
+#x70Image{
+  height: 79% !important;
+  width:79% !important
+}
+#sagaImage{
+  height: 60% !important;
+  width:51% !important
+}
+
+.perdana{
+  margin-top: 20px !important;
+}
+
+
+}
+
+
+@media only screen and (min-width: 1367px) and (max-width:1679px) {
+  .MobileNavbar{
+    display: none;
+  }
+  .DrawerRightSection1{
+    height:398px !important;
+  }
+  .divider{
+    margin-top: -6.9% !important;
+  }
+  .InternationalLineUp{
+    margin-top: -7%;
+  }
+  .perdana{
+    margin-top: 25px !important;
+  }
+  .persona{
+    margin-top: 20px !important;
+  } 
+  .mvp{
+    margin-top: 2.5%;
+  }
+  .sedan{
+    margin-top: 1%;
+  }
+}
+
+
+@media only screen and (min-width:1680px){
+  .MobileNavbar{
+    display: none;
+  }
+  .localLineUpMain{
+    margin-top: 6%;
+  }
+  .localLineUpSagaMain{
+    margin-top: 4%;
+  }
+  .compactSedan{
+    padding-top: 1.7vw !important;
+  }
+}

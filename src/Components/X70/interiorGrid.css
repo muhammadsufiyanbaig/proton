@@ -1,0 +1,96 @@
+.GridMarginTopBottomInteriorX70 {
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+
+  .interiorClass1X70 {
+    padding-top: 9vw;
+    padding-bottom: 36vw;
+    text-align: center;
+  }
+  .interiorClass2X70 {
+    color: white;
+    display: flex;
+    justify-content: center !important;
+  }
+  .interiorClass3X70 {
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+  }
+  .InteriorFlexheadX70{
+    color:green;
+    font-size: 50px !important;
+  }
+  @media only screen and (min-width: 1px) and (max-width: 599px) {
+    .intResX70{
+      width:100% !important;
+      margin-left: 0 !important;
+      }
+      .interiorClass1X70 {
+        padding-top: 9vw;
+        padding-bottom: 26vw;
+        text-align: center;
+      }
+      .refinedDesign{
+font-size: 14px !important;      }
+.h{
+  font-size: 11px !important;
+}
+  }
+  .interiorClass2X70{
+    margin-top: 30px !important;
+
+  }
+  .interiorClass3MobileX70{
+    width:100% !important;
+  }
+  .InteriorFlexheadX701{
+    font-size: 11px !important;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px !important;
+  }
+
+@media only screen and (min-width: 992px) and (max-width: 1366px) {
+    .interiorClass1X70 {
+        padding-top: 9vw;
+        padding-bottom: 29vw;
+        text-align: center;
+      }
+      .interiorClass2X70 {
+        color: white;
+        display: flex;
+        justify-content: center !important;
+      }
+      .interiorClass3X70 {
+        display: flex;
+        justify-content: center;
+      }
+}
+
+
+@media only screen and (min-width: 1367px) and (max-width: 1679px) {
+      .interiorClass1X70 {
+    padding-top: 9vw;
+    padding-bottom: 32vw;
+    text-align: center;
+  }
+  .interiorClass2X70 {
+    color: white;
+    display: flex;
+    justify-content: center !important;
+  }
+  .interiorClass3X70 {
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+  }
+}
+
+@media only screen and (min-width: 1680px) {
+    .intResX70{
+        width:100% !important;
+        margin-left: 0 !important;
+        }
+}

@@ -1,0 +1,104 @@
+.MainWrapperSection4{
+    height:calc(100vh);
+    width: 100vw;
+    margin-top:5px;
+    display: flex;
+}
+.MainWrapperSection4 .image1{
+    height: 100%;
+    width: calc(27.8vw);
+}
+.MainWrapperSection4 .image2Wrapper{
+    display: flex;
+    width: calc(100vw);
+    height: 100%;
+    justify-content: flex-end;
+    position: absolute;
+}
+.MainWrapperSection4 .image2{
+    height: 100%;
+    width: calc(87.4vw);
+}
+
+
+
+
+
+@media only screen and (min-width: 1px) and (max-width: 1023px) {
+    .MainWrapperSection4{
+       display: none !important;
+    }
+.MainWrapperSection4Mobile{
+    display: block !important;
+    margin-top: 2px !important;
+}
+    .exploreSagaMain{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center !important;
+        width:100% !important;
+        margin-top: 2px;
+      }
+      .exploreSagaInner{
+        font-size: 12px !important;
+        color:red;
+        /* background-color: #dbdbdb; */
+        /* border:1px solid black !important; */
+        border-radius: 20px !important;
+        box-shadow: aqua !important;
+        border:1px solid black;
+        width:62% !important;
+        height:4.5vh !important;
+        display:flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+      margin-top: 8%;
+      }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .MainWrapperSection4{
+       display: none !important;
+    }
+.MainWrapperSection4Mobile{
+    display: block !important;
+    margin-top: 2px !important;
+}
+    .exploreSagaMain{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center !important;
+        width:100% !important;
+        margin-top: 2px;
+      }
+      
+      .exploreSagaInner{
+        font-size: 12px !important;
+        color:red;
+        /* background-color: #dbdbdb; */
+        /* border:1px solid black !important; */
+        border-radius: 20px !important;
+        box-shadow: aqua !important;
+        border:1px solid black;
+        width:62% !important;
+        height:4.5vh !important;
+        display:flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      /* padding-bottom: 50px !important; */
+      }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,474 @@
+.takeAPeekSagaMain{
+    width: calc(100vw);
+}
+.radiationX70{
+    animation: scaleSaga 1.5s infinite cubic-bezier(.36, .11, .89, .32);
+    background-color: red;
+    height: 37px ;
+    width:37px ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 200px;
+}
+@keyframes scaleSaga {
+    from {
+      transform: scale(.5, .5);
+      opacity: .5;
+    }
+    to {
+      transform: scale(1.5, 1.5);
+      opacity: 0;
+    }
+  }
+  /* .ExpandedImageMobile{
+    display:none !important;
+   } */
+.hoverText1X70{
+    height:5%;
+    position:absolute;
+    right:9.5%;
+    margin-top:6%;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    }
+       
+.hoverText2X70{
+    font-size: 15px;
+    height:5%;
+    position:absolute;
+    right:9.5%;
+    margin-top:16%;
+    color:#ffffff;
+    font-weight: bold;
+    }
+.hoverText3X70{
+  font-size: 15px;
+ height:5%;
+  position:absolute;
+ right:9.5%;
+  margin-top:26%;
+ color:#ffffff;
+ font-weight: bold;
+        }
+
+
+.takeAPeekSagaMain .addIcon{
+    position: absolute;
+    cursor: pointer;
+    height: 40px;
+    width:40px;
+    border-radius: 20px;
+}
+.takeapeekParent .TakeApeekhead{
+    text-align: center;
+    word-spacing: 2vw;
+    letter-spacing: 1.6vw;
+    padding: 4% 4%;
+    margin-top: -1%;
+  }
+
+
+
+.takeAPeekSagaMain .ExpandIcon1{
+    margin-top: 15%;
+    margin-left: 49%;
+}
+.takeAPeekSagaMain .ExpandIcon2{
+    margin-top: 14%;
+    margin-left: 62%;
+}
+.takeAPeekSagaMain .ExpandIcon3{
+    margin-top: 20%;
+    margin-left: 62%;
+}
+
+.takeAPeekSagaMain .ExpandIcon4{
+    margin-top: 24%;
+    margin-left: 75%;
+}
+
+.takeAPeekSagaMain .ExpandIcon1stat{
+    margin-top: 1%;
+    margin-left: 60%
+}
+.takeAPeekSagaMain .ExpandIcon2stat{
+    margin-top: 16%;
+    margin-left: 49%;
+
+}
+.takeAPeekSagaMain .ExpandIcon3stat{
+    margin-top: 33%;
+    margin-left: 35%;
+}
+
+.takeAPeekSagaMain .ExpandIcon1stmt{
+    margin-top: 1%;
+    margin-left: 50%
+}
+.takeAPeekSagaMain .ExpandIcon2stmt{
+    margin-top: 30%;
+    margin-left: 49%;
+}
+
+
+.takeAPeekSagaMain .ExpandIcon3stmt{
+    margin-top: 24%;
+    margin-left: 75%;
+
+}
+
+
+.takeAPeekSagaMain .ExpandedImage{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 2%;
+    max-height: auto;
+    max-width: 28%;
+}
+.takeAPeekSagaMain .takeaPeekText{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 2%;
+    max-height: auto;
+    max-width: 28%;
+}
+.takeApeekBottomSagaImage{
+    margin-top: -32.5px;
+}
+ .takeAPeekBottomSagaButtons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -40px;
+    align-items: center;
+}
+.takeAPeekBtn{
+    margin: 0px 10px;
+    padding:10px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.takeAPeekSagaMain .ExpandedImageInterior{
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 2%;
+    max-height: auto;
+    max-width: 35%;
+}
+
+
+@media only screen and (max-width: 599px) {
+     .addIconMobile{
+        position: absolute;
+        cursor: pointer;
+        height: 28px !important;
+        width:28px !important;
+        border-radius: 20px;
+    }
+   
+  .takeApeekchangingButtons{
+    display:none
+  }
+  .takeApeekchangingButtonsMobileSaga{
+      display: flex !important;
+      justify-content: center !important;
+      position: absolute;
+      margin-top: 72%;
+      width:100% !important
+  }
+   .takeAPeekSagaMain{
+       display:none
+   }
+  
+   .takeApeekMobile{
+       display: block !important;
+   }
+   
+    .ExpandedImageMobile{
+        display: block !important;
+        margin-top: 10%;
+        margin-left: 12%;
+        max-height: auto;
+        max-width: 80%;
+    }
+
+     .ExpandIcon1Mobile{
+        margin-top: 25%;
+        margin-left: 47%;
+    }
+     .ExpandIcon2Mobile{
+        margin-top: 25%;
+        margin-left: 65%;
+    
+    }
+     .ExpandIcon3Mobile{
+        margin-top: 35%;
+        margin-left: 65%;
+    
+    }
+    
+     .ExpandIcon4Mobile{
+        margin-top: 42%;
+        margin-left: 85%;
+    }
+    
+     .ExpandIcon1statMobile{
+        margin-top: 1%;
+        margin-left: 60%
+    }
+     .ExpandIcon2statMobile{
+        margin-top: 28%;
+        margin-left: 47%;
+    
+    }
+     .ExpandIcon3statMobile{
+        margin-top: 50% !important;
+        margin-left: 25%;
+
+    }
+    
+     .ExpandIcon1stmtMobile{
+        margin-top: 1%;
+        margin-left: 50%
+    }
+     .ExpandIcon2stmtMobile{
+        margin-top: 50%;
+        margin-left: 49%;
+    }
+    .ExpandIcon3stmtMobile{
+        margin-top: 38%;
+        margin-left: 85%;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .takeapeekParent{
+        width:100%;
+    }
+ 
+
+    .addIconMobile{
+        position: absolute;
+        cursor: pointer;
+        height: 30px;
+        width:30px;
+        border-radius: 20px;
+    }
+   
+  .takeApeekchangingButtons{
+    display:none
+  }
+  .takeApeekchangingButtonsMobile{
+      display: flex !important;
+  }
+   .takeAPeekSagaMain{
+       display:none
+   }
+   .takeApeekMobile{
+       display: block !important;
+   }
+   
+    .ExpandedImageMobile{
+        margin-top: 10%;
+        margin-left: 12%;
+        max-height: auto;
+        max-width: 80%;
+    }
+
+     .ExpandIcon1Mobile{
+        margin-top: 25%;
+        margin-left: 47%;
+    }
+     .ExpandIcon2Mobile{
+        margin-top: 25%;
+        margin-left: 65%;
+    
+    }
+     .ExpandIcon3Mobile{
+        margin-top: 35%;
+        margin-left: 65%;
+    
+    }
+    
+     .ExpandIcon4Mobile{
+        margin-top: 42%;
+        margin-left: 85%;
+    }
+    
+     .ExpandIcon1statMobile{
+        margin-top: 1%;
+        margin-left: 60%
+    }
+     .ExpandIcon2statMobile{
+        margin-top: 28%;
+        margin-left: 47%;
+    
+    }
+     .ExpandIcon3statMobile{
+        margin-top: 58%;
+        margin-left: 25%;
+    }
+    
+     .ExpandIcon1stmtMobile{
+        margin-top: 1%;
+        margin-left: 50%
+    }
+     .ExpandIcon2stmtMobile{
+        margin-top: 50%;
+        margin-left: 49%;
+    }
+    .ExpandIcon3stmtMobile{
+        margin-top: 38%;
+        margin-left: 85%;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .takeapeekParent{
+        width:100%;
+    }
+ 
+
+    .addIconMobile{
+        position: absolute;
+        cursor: pointer;
+        height: 30px;
+        width:30px;
+        border-radius: 20px;
+    }
+   
+  .takeApeekchangingButtons{
+    display:none
+  }
+  .takeApeekchangingButtonsMobile{
+      display: flex !important;
+  }
+   .takeAPeekSagaMain{
+       display:none
+   }
+   .takeApeekMobile{
+       display: block !important;
+   }
+   
+    .ExpandedImageMobile{
+        margin-top: 10%;
+        margin-left: 12%;
+        max-height: auto;
+        max-width: 80%;
+    }
+
+     .ExpandIcon1Mobile{
+        margin-top: 25%;
+        margin-left: 47%;
+    }
+     .ExpandIcon2Mobile{
+        margin-top: 25%;
+        margin-left: 65%;
+    
+    }
+     .ExpandIcon3Mobile{
+        margin-top: 35%;
+        margin-left: 65%;
+    
+    }
+    
+     .ExpandIcon4Mobile{
+        margin-top: 42%;
+        margin-left: 85%;
+    }
+    
+     .ExpandIcon1statMobile{
+        margin-top: 1%;
+        margin-left: 60%
+    }
+     .ExpandIcon2statMobile{
+        margin-top: 28%;
+        margin-left: 47%;
+    
+    }
+     .ExpandIcon3statMobile{
+        margin-top: 58%;
+        margin-left: 25%;
+    }
+    
+     .ExpandIcon1stmtMobile{
+        margin-top: 1%;
+        margin-left: 50%
+    }
+     .ExpandIcon2stmtMobile{
+        margin-top: 50%;
+        margin-left: 49%;
+    }
+    .ExpandIcon3stmtMobile{
+        margin-top: 38%;
+        margin-left: 85%;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1367px) and (max-width: 1679px) {
+    .takeApeekBottomSagaImage{
+        margin-top: -49px !important;
+    }
+     .takeAPeekBottomSagaButtons{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: -50px;
+        align-items: center;
+    }
+}
+@media only screen and (min-width:1680px){
+ 
+     .takeAPeekBottomSagaButtons{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: -90px;
+        align-items: center;
+    }
+    .hoverText1X70{
+        height:5%;
+        position:absolute;
+        right:9.5%;
+        margin-top:7%;
+        color:#ffffff;
+        font-weight: bold;
+        font-size: 15px;
+        }
+           
+    .hoverText2X70{
+        font-size: 15px;
+        height:5%;
+        position:absolute;
+        right:9.5%;
+        margin-top:18.5%;
+        color:#ffffff;
+        font-weight: bold;
+        }
+    .hoverText3X70{
+      font-size: 15px;
+     height:5%;
+      position:absolute;
+     right:9.5%;
+      margin-top:29.5%;
+     color:#ffffff;
+     font-weight: bold;
+            }
+
+}

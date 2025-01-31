@@ -1,0 +1,127 @@
+.aboutMain{
+     /* height: calc(100vh + 140px);  */
+        min-width:100%;
+     margin-top: 100px;
+} 
+.contentFlex{
+    width:100%;
+    display: flex;
+}
+.contentLeft{
+    width:70%;
+}
+.contentRight{
+    width:30%;
+    margin-top: 31px;
+}
+.bannerAbout{
+    margin: 70px 70px;
+}
+.bannerImage1{
+    margin:10% 0% 10% 0% 
+}
+
+.aboutTextLast{
+    /* padding-bottom: 150px !important; */
+    text-align: justify !important;
+    width:80% !important
+
+}
+.aboutText{
+    text-align: justify !important;
+    width:80% !important
+}
+
+@media only screen and (max-width:768px){
+    .contentFlex{
+        width:100%;
+        display: flex;
+    }
+    .contentLeft{
+        width:100%;
+    }
+    .contentRight{
+      display: none !important;
+    }
+    .aboutMain{
+        /* height: calc(100vh + 170px);  */
+           min-width:100%;
+        margin-top: 100px;
+   
+   } 
+ 
+   .aboutAlhaj{
+       font-size: 30px !important;
+       padding-left: 20px !important;
+   }
+   .aboutText{
+    font-size: 15px !important;
+    width:100% !important;
+    padding-left: 20px !important;
+    padding-right: 50px !important;
+}
+.aboutTextLast{
+    font-size: 15px !important;
+    width:100% !important;
+    padding-left: 20px !important;
+    padding-right: 50px !important;
+    padding-bottom: 0px !important;
+    text-align: justify !important;
+
+}
+.banner{
+    margin-top: 20px !important;
+    padding-bottom: 20px !important;
+
+}
+.ceoImages{
+    height: 100% !important;
+    width:100% !important;
+    display:none !important
+}
+.ceoImagesMobile{
+    display: flex !important;
+    justify-content: center !important;
+    margin:15% 0% 0% 0% !important;
+}
+.bannerAbout{
+    margin: 20px 0px;
+}
+.bannerImage1Mobile{
+    
+    display:flex !important;
+    justify-content: center !important;
+    margin:10% 0% 3% 0% !important
+}
+.bannerImage2Mobile{
+    display:block !important;
+    height: 70% !important;
+    width:70% !important;
+}
+.bannerImage1{
+    
+    display:none !important;
+    justify-content: center !important;
+    margin:10% 0% 3% 0% !important
+}
+.bannerImage2{
+    display:none !important;
+    height: 70% !important;
+    width:70% !important;
+}
+
+}
+
+
+
+@media only screen and (min-width:1680px){
+    .aboutMain{
+           min-width:100%;
+        margin-top: 100px;
+   
+   } 
+   .banner{
+       margin-top: 70px;
+   }
+
+}

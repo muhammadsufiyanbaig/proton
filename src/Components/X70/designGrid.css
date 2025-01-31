@@ -1,0 +1,106 @@
+.designSliderX70-mainWrapper{
+    height:calc(100vh);
+    width: 100vw;
+}
+.designSliderX70-mainWrapper .sliderX70-image{
+    height: 100%;
+    width: 100%;
+}
+.designSliderX70-mainWrapper .sliderX70-text{
+    position: absolute;
+    width: 45.1%;
+    margin: 10% 3%;
+}
+
+
+
+@media only screen and (max-width:425px){
+    .mobileHeadsurprisingx70{
+        position: absolute;
+        display: block !important;
+        background-color: #0c67c157;
+        padding:10px 0px 0px 10px !important;
+         margin:10px 1px 0px 15px !important; 
+        width:53% !important 
+    }
+    .designSliderX70-mainWrapper{
+        width: 100%;
+        height: 100%;
+        margin-top: 20% !important;
+    }
+    
+    .sliderX70-text{
+        padding:0% !important;
+        width:50% !important;
+        padding-top: 5px !important;
+        align-items: center !important;
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+        display: none !important;
+    }
+    
+ .sliderX70-text{
+        position: absolute;
+        width: 80% !important;
+        margin: 1% 3% !important;
+    }
+    .sliderInnerText1X70{
+        font-size:18px !important;
+    }
+    .sliderInnerText2X70{
+        font-size:10px !important;
+        line-height: 15px !important;
+    }
+ 
+}
+
+@media only screen and (min-width:426px) and (max-width:1024px){
+
+    .designSliderX70-mainWrapper{
+        width: 100%;
+        height: 100%;
+        margin-top: 20% !important;
+    }
+    
+    
+ .sliderX70-text{
+        position: absolute;
+        width: 50% !important;
+        margin: 1% 3% !important;
+    }
+    .sliderInnerText1X70{
+        font-size:20px !important;
+    }
+    .sliderInnerText2X70{
+        font-size:15px !important;
+        line-height: 15px !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:1680px){
+    .designSliderX70-mainWrapper{
+        height:calc(90vh);
+        width: 100vw;
+    }
+    .designSliderX70-mainWrapper .sliderX70-image{
+        margin-top: 6% ;
+        height: 100%;
+        width: 100%;
+    }
+    .designSliderX70-mainWrapper .sliderX70-text{
+        position: absolute;
+        width: 45.5%;
+        margin: 3% 3%;
+    }
+    
+}

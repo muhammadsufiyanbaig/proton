@@ -1,0 +1,197 @@
+
+@font-face {
+    font-family:'GOTHAM-LIGHT';
+    src: local('GOTHAM-LIGHT'), url(../../../assets/fonts/gothomlight.TTF) format('truetype');
+  }
+  @font-face {
+    font-family:'GothamMedium';
+    src: local('GothamMedium'), url(../../../assets/fonts/GothamMedium.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family:'GOTHAM-MEDIUMITALIC';
+    src: local('GOTHAM-MEDIUMITALIC'), url(../../../assets/fonts/GOTHAM-MEDIUMITALIC.TTF) format('truetype');
+  }
+
+
+.siteMapMain{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.sitemaptopImage{
+    height:50%;
+    width:100%;
+}
+
+.siteMapHeading{
+    display: flex;
+    justify-content: center;
+    font-size: 50px !important;
+    margin-top: 5%;
+}
+
+.siteMapPara{
+    display: flex;
+    justify-content: center;
+    font-size: 25px !important;
+    margin-top: 1%;
+}
+.expansionMain{
+    width:100%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+   
+}
+.expansionInner{
+    width:70%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.MuiAccordionSummary-root {
+    min-height:100px !important
+}
+.MuiPaper-elevation1 {
+box-shadow: none !important;
+}
+
+.expansionFlexDivMain{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+  
+}
+.expansionFlexDivinner{
+    /* width:16.66% */
+    cursor: pointer;
+    font-size: 16px !important;
+}
+.expansionFlexDivinner:hover{
+    color:red;
+    font-weight: bold;
+}
+.isl{
+padding:15px 0px 15px 0px;
+font-size: 16px !important;
+cursor: pointer;
+
+}
+.isl:hover{
+    padding:20px 0px 10px 0px;
+    color:red;
+    font-weight: bold;
+    }
+.lhr{
+padding:15px 0px 15px 0px;
+font-size: 16px !important;
+cursor: pointer;
+}
+.lhr:hover{
+    color:red;
+    font-weight: bold;
+    }
+
+.sm{
+padding:15px 0px 15px 0px;  
+font-size: 16px !important;
+cursor: pointer;
+
+}
+.sm:hover{
+    color:red;
+    font-weight: bold;
+    }
+.am{
+padding:15px 0px 15px 0px;
+font-size: 16px !important;
+cursor: pointer;
+}
+
+.am:hover{
+    color:red;
+    font-weight: bold;
+    }
+
+.interinationallineup{
+    padding:20px 0px 10px 0px;
+font-size: 16px !important;
+cursor: pointer;
+}
+.interinationallineup:hover{
+    /* border-bottom: 2px solid red; */
+    color:red;
+    font-weight: bold;
+
+}
+
+@media only screen  and (max-width:768px){
+  
+    .siteMapMain{
+        margin-top: 18% !important;
+        margin-bottom: 5%;
+    }
+
+    .siteMapHeading{
+        display: flex;
+        justify-content: center;
+        font-size: 35px !important;
+        margin-top: 15%;
+    }
+    .siteMapPara{
+        display: flex;
+        justify-content: center;
+        font-size: 15px !important;
+        margin-top: 5%;
+        text-align: center;
+        width:100%;
+        padding-right: 5%;
+        padding-left: 5%;
+        
+    }
+    .expansionMain{
+        width:100%;
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .expansionInner{
+        width:90%;
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+    .accordinHead{
+        font-size: 18px !important;
+    }
+
+    .expansionFlexDivinner{
+        width:100% !important;
+        cursor: pointer;
+        font-size: 16px !important;
+padding:12px 0px 12px 0px !important;
+
+
+    }
+    .expansionFlexDivMain{
+        width:100% !important; 
+        display: block !important;
+    }
+    .internationalLineup{
+        margin-top: 8% !important;
+    }
+    .sagaPageandBooking{
+        width:65% !important
+    }
+    .dealers{
+        width:100% !important; 
+        display: block !important;
+    }
+    .footer{
+        width:100% !important; 
+        display: block !important;
+    }
+}
