@@ -80,7 +80,7 @@ export default class ModalGrid extends React.Component {
                                 </div>
                                 <div className="modelHeadDesktop">
                                     <div className="rotateVehicle" style={{ height: "150px", marginTop: "1%", width: "97%", display: 'flex', justifyContent: 'flex-end', paddingRight: "10%", position: "absolute" }}>
-                                        <img alt="-" src={RotateVehicle} alt="rotateVehicle" height="30px" width="auto" />
+                                        <img alt="-" src={RotateVehicle} height="30px" width="auto" />
                                     </div>
                                     <div className="sagaHeading" style={{ height: "30px", width: "12%" }}>
                                         <img src={SagaHeading} height="100%" width="100%" alt="-" />
