@@ -73,8 +73,8 @@ export default class ModalGrid extends React.Component {
                         <div className="modalresponsivenes1" style={{ height: "100%", width: "100%" }}>
 
                             <div className="modalresponsivenes2" style={{ paddingLeft: "7vw", paddingTop: "7vw" }}>
-                                <div>
-                                    <p className="fontstyle ahostofLuxury" id="modalresponsivenes3" style={{ paddingBottom: "1vw", fontSize: "2.7vw", wordSpacing: "2vw", letterSpacing: "1.6vw", textAlign: "center" }} >
+                            <div>
+                                    <p className="fontstyle makechoiceMobileHead" id="modalresponsivenes3" style={{ paddingBottom: "3vw", fontSize: "2.7vw", wordSpacing: "2vw", letterSpacing: "1.6vw", textAlign: "center" }} >
                                         MAKE YOUR CHOICE
                                      </p>
                                 </div>
