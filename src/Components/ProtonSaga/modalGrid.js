@@ -91,10 +91,10 @@ export default class ModalGrid extends React.Component {
                                     }
 
                                     {this.state.type === "STANDARD AT" &&
-                                        <p className="fontstyle sagaTextTop" style={{ fontSize: "1.2vw", letterSpacing: "-0.5px", marginTop: "16px", fontWeight: 600 }}>STANDARD A/T <span>Rs. #######</span></p>
+                                        <p className="fontstyle sagaTextTop" style={{ fontSize: "1.2vw", letterSpacing: "-0.5px", marginTop: "16px", fontWeight: 600 }}>STANDARD A/T</p>
                                     }
                                     {this.state.type === "STANDARD MT" &&
-                                        <p className="fontstyle sagaTextTop" style={{ fontSize: "1.2vw", letterSpacing: "-0.5px", marginTop: "16px", fontWeight: 600 }}>STANDARD M/T <span>Rs. #######</span></p>
+                                        <p className="fontstyle sagaTextTop" style={{ fontSize: "1.2vw", letterSpacing: "-0.5px", marginTop: "16px", fontWeight: 600 }}>STANDARD M/T</p>
                                     }
                                 </div>
                             </div>
@@ -106,11 +106,11 @@ export default class ModalGrid extends React.Component {
                             <div className="modelHeadMobile" style={{ display: "none" }}>
                                 <div style={{ display: "flex", justifyContent: "space-between", paddingLeft: "20px", paddingBottom: "50px" }}>
                                     <ArrowBackIosIcon onClick={this.goToPrev} style={{ height: '40px', width: "40px" }} />
-                                    <p className="fontstyle " style={{ fontSize: "13px", letterSpacing: "-0.5px", marginTop: "8px", fontWeight: 600 }}> {this.state.array[this.state.index]} <span>Rs. #######</span></p>
+                                    <p className="fontstyle " style={{ fontSize: "13px", letterSpacing: "-0.5px", marginTop: "8px", fontWeight: 600 }}> {this.state.array[this.state.index]} <span>PKR. 3,149,000/-</span></p>
                                     <ArrowForwardIosIcon onClick={this.goToNext} style={{ height: '40px', width: "40px" }} />
                                 </div>
                                 <div style={{ display: "flex", justifyContent: "center", width: "100%", marginTop: "-12%", paddingBottom: "5%" }}>
-                                    <img alt="-" src={RotateVehicle} alt="rotateVehicle" height="20px" width="auto" />
+                                    <img alt="-" src={RotateVehicle}  height="20px" width="auto" />
                                 </div>
                             </div>
                             <Fade right delay={1000}>

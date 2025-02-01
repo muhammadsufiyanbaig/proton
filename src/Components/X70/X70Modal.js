@@ -92,7 +92,7 @@ export default class ModalGrid extends React.Component {
                             <div className="modelHeadMobile" style={{ display: "none" }}>
                                 <div style={{ display: "flex", justifyContent: "space-between", paddingLeft: "13px", paddingBottom: "50px" }}>
                                     <ArrowBackIosIcon onClick={this.goToPrev} style={{ height: '40px', width: "40px" }} />
-                                    <p className="fontstyle " style={{ fontSize: "15px", letterSpacing: "-0.5px", marginTop: "8px", fontWeight: 600 }}> {this.state.array[this.state.index]} <span>Rs. #######</span></p>
+                                    <p className="fontstyle " style={{ fontSize: "15px", letterSpacing: "-0.5px", marginTop: "8px", fontWeight: 600 }}> {this.state.array[this.state.index]} <span>PKR. 7,300,000/-</span></p>
                                     <ArrowForwardIosIcon onClick={this.goToNext} style={{ height: '40px', width: "40px" }} />
                                 </div>
                                 <div style={{ display: "flex", justifyContent: "center", width: "100%", marginTop: "-12%", paddingBottom: "5%" }}>

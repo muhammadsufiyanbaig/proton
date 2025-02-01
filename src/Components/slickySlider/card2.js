@@ -6,7 +6,7 @@ const Card = ({ property, slider }) => {
     return (
         <div>
             {
-                slider === "slider1" && <div id={`card-${index}`} className="card" style={{ height: 500, width: 700, backgroundImage: `url(${picture})`, backgroundSize: "100% 100%" }} >
+                slider === "slider1" && <div id={`card-${index}`} className="card" style={{ height: 530, width: 700, backgroundImage: `url(${picture})`, backgroundSize: "100% 100%" }} >
                     {/* <img src={picture} alt={city} height="100%" width="100%" /> */}
 
                     <div style={{ backgroundColor: "", height: "100%" }}>

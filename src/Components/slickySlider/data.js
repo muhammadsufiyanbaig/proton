@@ -109,7 +109,7 @@ const X70Slider1 = {
             "index": 3,
             "picture": X70Pic4,
             "heading": "Air Purifier System",
-            "text": "The intelligent APS system filters out 95% pollutants, removes bad odor and kills bacteria to provide opulent ambience. ",
+            "text": "The intelligent APS system filters out 95% pollutants, removes bad odor and kills harmful bacteria to provide opulent ambience. ",
             "text2": "* Available in all variants.",
         },
         {
@@ -117,16 +117,16 @@ const X70Slider1 = {
             "index": 4,
             "picture": X70Pic5,
             "heading": "Dual-zone AC",
-            "text": "Climate concierge shall independently ensure the airflow to keep cool and refreshed on rather summery days. ",
+            "text": "Climate concierge shall independently or freely ensure the airflow to keep cool and refreshed and feel energized on rather summery days. ",
             "text2": "* Available in all variants.",
      
         }, {
             "_id": "593e92973d4d15eedb129aee",
             "index": 5,
             "picture": X70Pic6,
-            "heading": "Powered Tailgate with Foot Sensor",
+            "heading": "Powered Tailgate Foot Sensor",
 
-            "text": "Open and close the tailgate with foot movement under the rear bumper, offering you intuitive analogue functionality.",
+            "text": "Open and close the tailgate with foot movement under the rear bumper, offering you intuitive analogue functionality and convenience.",
             "text2": "* Available only in Premium 2WD and 4WD variants.",
 
         }, {
@@ -134,7 +134,7 @@ const X70Slider1 = {
             "index": 6,
             "picture": X70Pic7,
             "heading": "Welcome Lamps",
-            "text": "Our projective emblem welcomes you onboard to experience solitude. ",
+            "text": "Our projective emblem welcomes you onboard to experience solitude, comfort, elegance, innovation, sophistication, tranquility, excellence, and harmony.",
             "text2": "* Available in all variants.",
         },
     ]
